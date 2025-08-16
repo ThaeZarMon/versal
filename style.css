@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #031216;
+  color: #ffffff;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* header section// */
+header {
+  padding: 50px 100px;
+  border-bottom: 2px solid white;
+}
+
+header p {
+  font-family: sans-serif;
+  line-height: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header a {
+  padding: 10px 60px;
+  line-height: 20px;
+  background-color: rgb(78, 76, 72);
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+
+/* menu section// */
+nav {
+  text-align: center;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* planets section// */
+#planets {
+  margin: 50px 100px;
+}
+
+.planet h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+img {
+  border: 2px solid white;
+  width: 40%;
+  height: 240px;
+}
+
+/* footer section// */
+footer {
+  border-top: 2px solid white;
+  margin-bottom: 30px;
+}
+footer a {
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px;
+}
+footer textarea {
+  margin-top: 50px;
+}
