@@ -5,9 +5,15 @@
 }
 
 body {
-  background-color: #031216;
+  background: linear-gradient(to left, rgb(19, 13, 39), black);
+  height: 100vh;
   color: #ffffff;
   font-family: "Exo 2", sans-serif;
+  text-shadow: 2px 2px 2px rgb(31, 31, 97);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* header section// */
@@ -16,60 +22,93 @@ header {
   border-bottom: 2px solid white;
 }
 
-header p {
-  font-family: sans-serif;
-  line-height: 1.5rem;
-  margin-top: 20px;
+header h1 {
+  margin-bottom: 15px;
+}
+
+header h2 {
   margin-bottom: 20px;
 }
 
 header a {
   padding: 10px 60px;
   line-height: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   background-color: rgb(78, 76, 72);
   color: #ffffff;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
   border-radius: 9px;
-  margin-bottom: 10px;
 }
 
 /* menu section// */
-nav {
+#nav {
+  background-color: rgb(5, 5, 8);
   text-align: center;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
 }
-nav a {
+#nav a {
   color: #ffffff;
   text-decoration: none;
 }
 
 /* planets section// */
-#planets {
-  margin: 50px 100px;
+
+#planets,
+#stars,
+#galaxies {
+  padding: 50px 100px;
+  border-bottom: 2px solid white;
 }
 
 .planet h3 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-img {
+#planets img,
+#stars img,
+#galaxies img {
   border: 2px solid white;
   width: 40%;
-  height: 240px;
+  margin-bottom: 20px;
+}
+
+/* stars section// */
+
+#stars h3,
+#galaxies h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* galaxies section// */
+
+.galaxy p {
+  line-height: 1.5rem;
 }
 
 /* footer section// */
 footer {
-  border-top: 2px solid white;
   margin-bottom: 30px;
+}
+footer p,
+footer textarea {
+  margin-left: 100px;
+  margin-top: 40px;
 }
 footer a {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
   margin: 50px;
-}
-footer textarea {
-  margin-top: 50px;
+  padding: 10px;
+  border-radius: 50% 50%;
+  background-color: grey;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
 }
